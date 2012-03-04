@@ -1,0 +1,483 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[czech]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} 
+\usepackage[czech]{babel}
+\usepackage[sc,osf]{mathpazo}
+\usepackage{multirow}
+\usepackage{tabularx,colortbl}
+\usepackage{color}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{caption}
+\usepackage{multicol}
+
+\captionsetup{tablename=}
+
+
+%\definecolor{orange}{HTML}{A57164}
+\definecolor{coolblack}{HTML}{002E63}
+\definecolor{coffee}{HTML}{36454F}
+% Set your name here
+\def\name{Ing. Martin Kožený}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{http://jblevins.org/projects/cv-template/}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {economics, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (+420) 724 735 822 \\
+    Email: & \href{mailto:martin.kozeny@gmail.com}{\tt martin.kozeny@gmail.com}
+    \\
+    %LinkedIn: &
+    %\url{http://cz.linkedin.com/pub/martin-kožený/41/601/556}
+  \end{tabular}
+\end{minipage}
+
+\textcolor{coolblack}{\section*{Personal}}
+
+\begin{itemize}
+\item Born on December 21, 1986.
+\item Czech Republic Citizen.
+\item Marital status: single.
+\item Driving licence: yes (B).
+\item Spoken languages: Czech - mothertongue, English - fluent, German - good,
+French - basic.
+\end{itemize}
+
+\textcolor{coolblack}{\section*{Profile}}
+I have quite a lot experiences with programming in Java (both J2SE and J2EE)
+and also interested in other programming languages and using alternative
+programming techniques. I passed during my studies many courses related to
+artifical intelligence which is also object of my interest. In my current work I
+deal with J2EE technologies and databases.
+
+\textcolor{coolblack}{\section*{Education}}
+
+\begin{itemize}
+	\item Ing. Computer science - software engineering, Czech Technical University
+  in Prague, 2009--2012.
+
+  \item International exchange student of computer science, University of New
+  Orleans, 2011.
+  \item CISCO Networks certificate, CCNAE 1, 2010.
+  
+  \item Bc. Computer science, Czech Technical University in Prague, 2006--2009.
+  \item First Certificate in English (FCE), 2006.
+  \item Grammar school Dašická Pardubice, 1998--2006.
+\end{itemize}
+
+
+\textcolor{coolblack}{\section*{Employment}}
+
+\begin{itemize}
+\item Software developer at Ample cz s.r.o. 2007--present.\\
+\textit{Duties}: Working on enteprise applications for government and for
+private sector involving its designing, modeling and implementation. Experiences
+with databases including data gathering and data normalizing for datawarehouse.
+\item Tourist guide at Kinský dal Borgo, a.s. 2004--2011.\\
+\textit{Duties}: Tourist guide at castle Kost in summer season.
+\item 
+\end{itemize}
+
+
+\textcolor{coolblack}{\section*{Areas of expertise}}
+\begin{multicols}{2} 
+\textcolor{coffee}{\subsection*{Programming languages}}
+
+\begin{itemize}
+\item Java (J2SE, J2EE)
+\item C/C++
+\item Smalltalk
+\item Ruby
+\item Lisp
+\item Prolog
+\item Haskell
+\end{itemize}
+
+
+\textcolor{coffee}{\subsection*{Databases}}
+
+\begin{itemize}
+\item SQL language
+\item MS SQL Server
+\item MS SQL Server Analysis
+\item Mondrian
+\item PostgreSQL Server
+\item Oracle and also its PL/SQL extension
+\item MySQL
+\end{itemize}
+\end{multicols}
+
+\begin{multicols}{2}
+\textcolor{coffee}{\subsection*{Tools}}
+\begin{itemize}
+\item Eclipse
+\item NetBeans
+\item Ant
+\item ETL graphs
+\item Visual Studio
+\item Enterprise Architect, Astah
+\item CVS
+\item SVN
+\item Git
+\end{itemize}
+
+
+\textcolor{coffee}{\subsection*{Administration}}
+\begin{itemize}
+  \item Administration of Gnu/Linux
+  
+  \item MS Windows
+  
+  \item Application server Tomcat
+  \item JBoss
+  \item Apache
+  \item 
+  \item 
+  \item 
+\end{itemize}
+\end{multicols}
+\newpage
+
+\textcolor{coffee}{\subsection*{Web Development}}
+\begin{multicols}{2}
+\begin{itemize}
+\item JBoss Seam framework 
+\item Ajax
+\item CSS
+\item HTML
+\item XHTML
+\item XML
+\item Software design
+\item UML 2.0
+\item Web Services
+\item Testing
+\item Javascript
+\item JQuery
+\item Jakarta Struts
+\item PHP
+\item \LaTeX
+\item DocBook
+\end{itemize}
+\end{multicols}
+
+
+
+
+\textcolor{coolblack}{\section*{Realized projects}}
+
+\begin{table}[h]
+\caption{eGORDION}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &eGORDION (dataGORDION3,
+nabidkaGORDION, metodikaGORDION,\newline eaukceGORDION)\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer and
+system designer \\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer}
+& Public institutions (Minstry of Transport, Ministry of Justice, Ministry of
+Agriculture, Ministry of Industry and Trade, Ministry of Education, Czech
+Post, Faculty Hospital Motol, Hospital Na Homolce, VZP, Czech Railways, City of
+Budejovice, City of Pilsen, South Bohemian Region,\ldots) and private
+institutions (Gordion s.r.o., eCentre a.s.,\ldots) \\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 2007--2012 \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} & Design and
+ implementation of modular system for administration of public contracts -
+ integrated web applications, electronic tool - the auction,
+electronic submission of tenders, the DNS - the dynamic purchasing,
+\url{www.egordion.cz}\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss Seam
+ framework 2.0.1., LDAP, Lucene, WebDav, streaming JBoss webservices, electronic
+ receipt of tenders, encryption, certificates, applets, Linux / MS Windows
+ servers, Postgre SQL, MS SQL Server 2000/2005 \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} & Design,
+ development, implementation of specific branch with new features for
+ Czech Railways and consultation, service, support
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+
+
+\begin{table}[h]
+\caption{Insolvency Register}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &Insolvency Register\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer
+\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} &
+Electrolux CZ\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 6/2009 \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} & Monitoring
+ insolvency of Electrolux's customers\\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss Seam
+ framework 2.0.1., Postgre SQL \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} & Design, development
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+\begin{table}[h]
+\caption{Datawarehouse}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &Datawarehouse\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & Designer
+and developer of datawarehouse including ETL processes and web application for
+the customer\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} &
+Electrolux A\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 1/2009--6/2009 \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} &
+ Implementation of system providing information for business decisions\\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & Jakarta Struts, MS
+ SQL Server Analysis, ETL graph plugin for Eclipse \\ \hline
+ \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} &
+ Design and implementation of ETL processes, Datawarehouse cubes and
+ web application enabling operations like slicing etc.
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Lavamax}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &Lavamax\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer
+and system designer\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} & Lavamax s.r.o.\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 6/2009--10/2009 \\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} & ERP system
+for authorized service company of Electrolux appliances - service order
+management, technician planning, ordering of products, billing, invoicing.\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss
+Seam framework 2.1.2, MS SQL Server 2005 \\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} & Design and
+implementation of particular processes (invoicing, ordering, billing, documents
+generating), design and implementation of upselling using webservices and
+persistent queue, support
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Reklamace}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &Reklamace\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} & Electrolux CZ\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 4/2010--5/2010 \\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} & Web
+application providing inserting warranty claims for customers and its
+administration on Electrolux's side, , \url{www.elux4u.net/reklamace}\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss Seam framework 2.1.2, MS SQL Server 2000 \\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} &
+Implementation of particular processes (life cycle of warranty claim, generating
+documents)
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[h]
+\caption{dataGORDION3 migration}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &dataGORDION3 migration\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & Data
+transformation process developer\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} & City of Olomouc, City of
+Budejovice, Mero, \ldots\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 2009--2010 \\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} &
+Transform data from relational database dataGORDION2 to relational database
+dataGORDION3\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & 
+ETL graph Eclipse plugin, MS SQL Server 2000/2005\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} &
+Design and implementation of phases of transformation data from relational
+database of application dataGORDION2 to relational database of application
+dataGORDION3 using ETL graph Eclipse plugin while preserving all the relational
+dependencies
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Customer Database}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &Customer Database\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer
+and system designer\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} & Electrolux CZ\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} & 4/2010--5/2010 \\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} & CRM web
+application for traders with functionalities like planning meetings,
+attendance reporting, information on the sale of the products, integration
+with other applications\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss Seam framework 2.1.2, MS SQL Server 2000 \\ \hline 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} &
+Implementation of communication between application Reklamace and Customer
+Database using webservices, administration of customers, computing and
+generating output of attendance and appointments, support
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+
+\begin{table}[b]
+\caption{eTržiště}
+%\label{tab:hpTimes}
+\begin{center}
+\begin{tabular}{|p{7cm}|p{13cm}|} \hline
+
+ 
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project} &eTržiště\\
+\hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Position} & J2EE developer\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Customer} & Ministry of Regional
+Development\\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Term} &
+9/2011--? \\ \hline \multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Project decription} &
+Implementation of application according to project documentation of Ministry of Regional
+Development enabling
+administration of public tenders in a set of procurement procedures under the
+Public Procurement Act and outside its range, \url{www.tendermarket.cz}\\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Technology} & J2EE, JBoss Seam framework 2.2.2, Postgre SQL \\ \hline
+\multicolumn{1}{|>{\cellcolor[gray]{.9}}r|}{Responsibility} & Implementation of
+particular subprocesses (e.g. Cancelation of procurement), communication with
+ISVZ using webservices
+ \\
+ \hline
+ 
+\end{tabular}
+%\label{fig:hpIMem405}
+\end{center}
+\end{table}
+
+
+
+\bigskip
+
+
+
+\end{document}
