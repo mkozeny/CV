@@ -13,16 +13,16 @@
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="eGOR" key="selection"/>
+		<item value="name" key="selection"/>
 		<list key="findhistory">
+			<item value="name"/>
+			<item value="ente"/>
 			<item value="egor"/>
 			<item value="j2ee deve"/>
 			<item value="ms sql"/>
 			<item value="insolven"/>
 			<item value="south"/>
 			<item value="mmr"/>
-			<item value="struts"/>
-			<item value="php"/>
 		</list>
 		<list key="replacehistory">
 		</list>

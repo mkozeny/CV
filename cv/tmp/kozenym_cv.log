@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.24)  4 MAR 2012 23:44
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.24)  28 JUL 2012 08:25
 entering extended mode
  Source specials enabled.
  %&-line parsing enabled.
@@ -520,7 +520,7 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 49.
+Package hyperref Info: Option `colorlinks' set `true' on input line 64.
 
 (/usr/share/texmf-texlive/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
@@ -528,26 +528,27 @@ les
 ) (./kozenym_cv.aux)
 \openout1 = `kozenym_cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 101.
+
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-Package hyperref Info: Link coloring ON on input line 86.
+Package hyperref Info: Link coloring ON on input line 101.
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -557,8 +558,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count110
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
  (./kozenym_cv.out)
 (./kozenym_cv.out)
 \@outlinefile=\write3
@@ -574,8 +575,8 @@ landscape: --
 twocolumn: --
 twoside: --
 asymmetric: --
-h-parts: 72.26999pt, 469.75499pt, 72.27002pt
-v-parts: 90.3375pt, 614.295pt, 90.3375pt
+h-parts: 62.87454pt, 498.66255pt, 52.7579pt
+v-parts: 90.3375pt, 686.56499pt, 18.0675pt
 hmarginratio: --
 vmarginratio: --
 lines: --
@@ -589,10 +590,10 @@ driver: pdftex
 -------------------- Page layout dimensions and switches
 \paperwidth  614.295pt
 \paperheight 794.96999pt
-\textwidth  469.75499pt
-\textheight 614.295pt
-\oddsidemargin  0.0pt
-\evensidemargin 0.0pt
+\textwidth  498.66255pt
+\textheight 686.56499pt
+\oddsidemargin  -9.39545pt
+\evensidemargin -9.39545pt
 \topmargin  -18.9325pt
 \headheight 12.0pt
 \headsep    25.0pt
@@ -602,7 +603,7 @@ driver: pdftex
 \columnsep  10.0pt
 \skip\footins  9.0pt plus 4.0pt minus 2.0pt
 \hoffset 0.0pt
-\voffset 0.0pt
+\voffset -22.76228pt
 \mag 1000
 
 (1in=72.27pt, 1cm=28.45pt)
@@ -623,66 +624,67 @@ driver: pdftex
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 97.
-
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 112
+.
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 97.
-
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 112
+.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 97.
-
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 112
+.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 97.
-
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 112
+.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 97.
-
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 112
+.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 99.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 114.
+
 
 (/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 106.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 121.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 155.
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 175.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 230.
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 265.
  [2] (./kozenym_cv.aux) ) 
 Here is how much of TeX's memory you used:
- 7048 strings out of 495027
- 101191 string characters out of 1181419
- 199506 words of memory out of 3000000
+ 7049 strings out of 495027
+ 101202 string characters out of 1181419
+ 199509 words of memory out of 3000000
  10084 multiletter control sequences out of 15000+50000
  34800 words of font info for 58 fonts, out of 3000000 for 9000
  38 hyphenation exceptions out of 8191
- 38i,9n,38p,276b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,38p,276b,448s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}
  </home/kozenym/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk></usr/sha
 re/texmf-texlive/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texmf-texlive/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on kozenym_cv.pdf (2 pages, 53199 bytes).
+Output written on kozenym_cv.pdf (2 pages, 54155 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 63 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
